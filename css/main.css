@@ -4,6 +4,40 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+#top-panel header {
+  padding: 2rem; }
+  #top-panel header nav {
+    float: left; }
+    #top-panel header nav ul {
+      overflow: auto;
+      list-style-type: none; }
+      #top-panel header nav ul li {
+        height: 25px;
+        float: left;
+        margin-right: 0px;
+        border-right: 1px solid #aaa;
+        padding: 0 20px; }
+        #top-panel header nav ul li:last-child {
+          border-right: none; }
+        #top-panel header nav ul li a {
+          text-decoration: none;
+          color: #ccc;
+          text-transform: uppercase;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+          #top-panel header nav ul li a:hover {
+            color: #666; }
+          #top-panel header nav ul li a .active a {
+            font-weight: bold;
+            color: #333; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: 'Lato', sans-serif; }
 

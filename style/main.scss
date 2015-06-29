@@ -1,7 +1,14 @@
 @import 'bourbon/bourbon'; 
 @import 'neat/neat';
+@import 'navigation';
 
 $navyblue: #0A0A3C;
+$lightgray: #EDEFED;
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Lato', sans-serif;

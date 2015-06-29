@@ -1,0 +1,28 @@
+@import 'bourbon/bourbon'; 
+@import 'neat/neat';
+
+$navyblue: #0A0A3C;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#top-panel {
+  background: $navyblue;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+h1#tagline {
+  font-size: 3em;
+  font-family: 'Varela Round', sans-serif; 
+}
+
+h3#subtitle {
+  font-size: 1.5em;
+}

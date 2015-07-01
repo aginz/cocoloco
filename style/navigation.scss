@@ -1,3 +1,7 @@
+// NAVIGATION BAR
+
+$yellow: #ECBB28;
+
 #top-panel header {
   padding: 2rem;
   nav {
@@ -20,14 +24,19 @@
           text-transform: uppercase;
           transition: all 0.5s ease;
           &:hover {
-            color: #666;
+            // color: #666
+            color: tint($yellow, 20%);
           }
         }
       }
-      li.active a {
+      li.active {
+        transition: all 0.5s ease;
         font-weight: 700;
         font-size: 1.2rem;
-        color: #333;
+        // color: #333;
+        a {
+          color: tint($yellow, 20%); 
+        }
       }
     }
   }  

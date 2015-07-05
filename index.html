@@ -5,6 +5,7 @@
   <title>Coco Loco</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Varela+Round|Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -20,13 +21,46 @@
     </header>  
     <h1 id="tagline">YOUR MOUNTAIN GETAWAY AWAITS</h1>
     <h3 id="subtitle">Rent a luxury 4 bedroom condo on the slopes of Beaver Creek</h3>
-    <button>Learn More</button>
+    <button id="learn-more" type="submit" formtarget="#">Learn More</button>
   </div>
-  <section>
-  <aside>What we offer</aside>
-  </section>
+  <div id="about-panel">
+    <section>
+      <h1>About this property</h1>
+      <p>Located in the heart of Bachelor Gulch, Colorado - home of the premier Beaver Creek Ski resort. This property is a situated steps from the Cabin Fever ski run and beautiful hiking trails. <a href="#">Contact us</a> to book your dream mountain retreat.</p>
+      <br>
+      <div class="row">
+        <aside>The Space</aside>
+        <div class="col-4">
+          <ul>
+            <li>Type: Apartment</li>
+            <li>Accommodates: 10-12</li> 
+            <li>Access: Ski-In/Ski-Out</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li>Bedrooms: 4</li>
+            <li>Bathrooms: 4.5</li>
+            <li>Beds: 5 + Futon</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <aside>Amenities</aside>
+        <ul>
+          <li><i class="fa fa-cutlery"></i>Kitchen</li>
+          <li><i class="fa fa-wifi"></i>Wi-fi</li>
+          <li><i class="fa fa-fire"></i>Fireplace</li> 
+          <li><i class="fa fa-life-ring"></i>Heated Pool/Spa</li>
+          <li><i class="fa fa-simplybuilt"></i>Washer/Dryer</li>
+          <li><i class="fa fa-car"></i>Free Parking</li>
+          <li><i class="fa fa-bus"></i>Free Shuttle Service to Beaver Creek Village</li>
+        </ul>
+      </div>
+    </section>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

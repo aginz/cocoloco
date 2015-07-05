@@ -100,5 +100,12 @@ section {
       width: 33.33333%; }
     section div.row ul {
       list-style-type: none; }
+      section div.row ul li span {
+        font-weight: 700;
+        padding-left: 6px; }
+      section div.row ul li > i, section div.row ul p {
+        display: inline-block; }
+      section div.row ul li i {
+        width: 25px; }
 
 /*# sourceMappingURL=main.css.map */

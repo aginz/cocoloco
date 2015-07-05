@@ -73,6 +73,12 @@ section {
     div.col-4 { @include span-columns(4); }
     ul {
       list-style-type: none;
+      li span { 
+        font-weight: 700; 
+        padding-left: 6px;
+      }
+      li > i,p { display: inline-block; }
+      li i { width: 25px; }
     }
   }
 }  

@@ -81,7 +81,7 @@ section {
       li i { width: 25px; }
     }
   }
-} 
+}
 
 // FLEXSLIDER
 .flex-caption {
@@ -94,4 +94,15 @@ section {
   text-shadow: 0 -1px 0 rgba(0,0,0,.3);
   font-size: 14px;
   line-height: 18px;
+}  
+
+// TOUR PANEL
+#tour-panel {
+  background: $navyblue;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
 }

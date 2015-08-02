@@ -1,3 +1,4 @@
+// NAVBAR
 var main = function() {
   $("nav ul li").on("click", function(){
     $("nav ul li").removeClass("active");
@@ -6,3 +7,10 @@ var main = function() {
 };
 
 $(document).ready(main);
+
+// FLEXSLIDER
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});

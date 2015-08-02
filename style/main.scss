@@ -82,3 +82,14 @@ section {
     }
   }
 }  
+
+// TOUR PANEL
+#tour-panel {
+  background: $navyblue;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}

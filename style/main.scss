@@ -1,4 +1,4 @@
-@import 'bourbon/bourbon'; 
+@import 'bourbon/bourbon';
 @import 'neat/neat';
 @import 'navigation';
 
@@ -33,7 +33,7 @@ body {
 
 h1#tagline {
   font-size: 3em;
-  font-family: 'Varela Round', sans-serif; 
+  font-family: 'Varela Round', sans-serif;
   margin-top: 25vh;
 }
 
@@ -57,7 +57,7 @@ button#learn-more {
 }
 
 // ABOUT PANEL
-#about-panel { 
+#about-panel {
   background: $lightgray;
   padding: 1rem;
   min-height: 100%;
@@ -65,7 +65,7 @@ button#learn-more {
 }
 section {
   @include outer-container;
-  div.row { 
+  div.row {
     @include row(table);
     border-bottom: 1px $darkgray solid;
     padding: 15px;
@@ -73,8 +73,8 @@ section {
     div.col-4 { @include span-columns(4); }
     ul {
       list-style-type: none;
-      li span { 
-        font-weight: 700; 
+      li span {
+        font-weight: 700;
         padding-left: 6px;
       }
       li > i,p { display: inline-block; }
@@ -85,16 +85,18 @@ section {
 
 // FLEXSLIDER
 .flex-caption {
-  width: 96%;
+  width: 100%;
   padding: 2%;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,.5);
+  background: $navyblue;
+  opacity: 70%;
+  text-align: center;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0,0,0,.3);
   font-size: 14px;
   line-height: 18px;
-}  
+}
 
 // TOUR PANEL
 #tour-panel {
@@ -105,4 +107,8 @@ section {
   background-position: center;
   text-align: center;
   color: white;
+  h1 {
+    text-align: left;
+    margin-left: 1rem;
+  }
 }

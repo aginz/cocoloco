@@ -108,6 +108,19 @@ section {
       section div.row ul li i {
         width: 25px; }
 
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: #0A0A3C;
+  opacity: 70%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  line-height: 18px; }
+
 #tour-panel {
   background: #0A0A3C;
   height: 100vh;
@@ -116,5 +129,8 @@ section {
   background-position: center;
   text-align: center;
   color: white; }
+  #tour-panel h1 {
+    text-align: left;
+    margin-left: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

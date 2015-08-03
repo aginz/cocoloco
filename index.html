@@ -15,15 +15,17 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Tour</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about-panel" class="smoothScroll">About</a></li>
+          <li><a href="#tour-panel" class="smoothScroll">Tour</a></li>
+          <li><a href="#contact-panel" class="smoothScroll">Contact</a></li>
         </ul>
       </nav>
     </header>
     <h1 id="tagline">YOUR MOUNTAIN GETAWAY AWAITS</h1>
     <h3 id="subtitle">Rent a luxury 4 bedroom condo on the slopes of Beaver Creek</h3>
-    <button id="learn-more" type="submit" formtarget="#">Learn More</button>
+    <a href="#about-panel" class="smoothScroll" style="text-decoration: none; color: white">
+      <button id="learn-more">Learn More</button>
+    </a>
   </div>
 
   <!-- ABOUT PANEL -->
@@ -159,5 +161,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/jquery.flexslider.js"></script>
+  <script src="js/smoothscroll.js"></script>
 </body>
 </html>

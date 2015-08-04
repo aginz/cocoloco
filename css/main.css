@@ -11,7 +11,7 @@ header {
     position: fixed;
     z-index: 1;
     float: right;
-    width: 300px; }
+    width: 325px; }
     header nav ul {
       overflow: auto;
       list-style-type: none; }

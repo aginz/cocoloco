@@ -107,8 +107,11 @@ section {
   background-position: center;
   text-align: center;
   color: white;
-  h1 {
-    text-align: left;
-    margin-left: 1rem;
-  }
+  // section {
+  //   @include outer-container;
+  //   h1 {
+  //     text-align: left;
+  //     margin-left: 1rem;
+  //   }
+  // }
 }

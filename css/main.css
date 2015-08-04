@@ -4,33 +4,37 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#top-panel header {
-  padding: 2rem; }
-  #top-panel header nav {
-    float: left; }
-    #top-panel header nav ul {
+header {
+  padding: 1rem;
+  display: block; }
+  header nav {
+    position: fixed;
+    z-index: 1;
+    float: right;
+    width: 300px; }
+    header nav ul {
       overflow: auto;
       list-style-type: none; }
-      #top-panel header nav ul li {
+      header nav ul li {
         height: 25px;
         float: left;
         margin-right: 0px;
         border-right: 1px solid #aaa;
         padding: 0 20px; }
-        #top-panel header nav ul li:last-child {
+        header nav ul li:last-child {
           border-right: none; }
-        #top-panel header nav ul li a {
+        header nav ul li a {
           text-decoration: none;
           color: #ccc;
           text-transform: uppercase;
           transition: all 0.5s ease; }
-          #top-panel header nav ul li a:hover {
+          header nav ul li a:hover {
             color: #f0c953; }
-      #top-panel header nav ul li.active {
+      header nav ul li.active {
         transition: all 0.5s ease;
         font-weight: 700;
         font-size: 1.2rem; }
-        #top-panel header nav ul li.active a {
+        header nav ul li.active a {
           color: #f0c953; }
 
 * {
